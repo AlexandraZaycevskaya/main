@@ -1,0 +1,23 @@
+.header{
+    padding: 36px 0;
+}
+
+.header-container{
+    align-items: center;
+}
+
+.header-logo{
+    margin-right: auto;
+}
+
+.header-list{
+    gap: 45px;
+}
+
+.header-nav{
+    margin-right: 52px;
+}
+
+/* .header-list-item:not(:last-child){
+    margin-right: 52px;
+} */
