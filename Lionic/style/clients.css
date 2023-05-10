@@ -1,0 +1,31 @@
+.clients-item{
+    flex-direction: column;
+    width: 370px;
+    padding: 50px 36px;
+    padding-bottom: 30px;
+    outline: 1px solid gray;
+}
+
+.clients-item:not(:nth-child(3n)){
+    margin-right: 30px;
+}
+
+.clients-item-descr{
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.clients-user{
+    margin-top: auto;
+    align-items: center;
+}
+
+.clients-avatar{
+    width: 67px;
+    flex-shrink: 0;
+    margin-right: 17px;
+}
+
+.clients-name{
+    margin-bottom: 5px;
+}
