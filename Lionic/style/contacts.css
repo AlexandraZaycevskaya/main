@@ -1,0 +1,25 @@
+.contacts-address{
+    font-style: normal;
+}
+
+.contacts-item{
+    flex-direction: column;
+    width: 370px;
+    outline: 1px solid gray;
+}
+
+.contacts-item:not(:nth-child(3n)){
+    margin-right: 30px;
+}
+
+.contacts-item-caption{
+    margin-bottom: 30px;
+}
+
+.contacts-item-text{
+    margin: 0;
+}
+
+.contacts-item-link:not(:last-child){
+    margin-bottom: 5px;
+}
