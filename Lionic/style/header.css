@@ -1,5 +1,7 @@
 .header{
     padding: 36px 0;
+    border-bottom: 1px solid #C4C4C4;
+    background-color: #FFF;
 }
 
 .header-container{
@@ -16,6 +18,12 @@
 
 .header-nav{
     margin-right: 52px;
+}
+
+.header-link{
+    font-weight: 600;
+    font-size: 15px;
+    color: #1C1C1C;
 }
 
 /* .header-list-item:not(:last-child){
