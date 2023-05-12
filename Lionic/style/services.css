@@ -1,3 +1,7 @@
+.services{
+    border-bottom: 1px solid #DADADA;
+}
+
 .services-title{
     text-align: center;
 }
@@ -9,9 +13,10 @@
 .services-item{
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 60px 30px;
     width: 270px;
-    outline: 1px solid gray;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
 }
 
 .services-item:not(:nth-child(4n)){
@@ -25,9 +30,17 @@
 .services-item-title{
     margin: 0;
     margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1C1C1C;
 }
 
 .services-item-descr{
     margin: 0;
     text-align: center;
+     font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #787878;
 }
