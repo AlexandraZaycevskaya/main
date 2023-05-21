@@ -1,3 +1,7 @@
+.contacts{
+    border-bottom: 1px solid #DADADA;
+}
+
 .contacts-address{
     font-style: normal;
 }
@@ -5,7 +9,22 @@
 .contacts-item{
     flex-direction: column;
     width: 370px;
-    outline: 1px solid gray;
+    padding-top: 48px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 29px 29px;
+}
+
+.contacts-item-address{
+   background-image: url(../resources/location.svg); 
+}
+
+.contacts-item-call{
+    background-image: url(../resources/phone.svg);
+}
+
+.contacts-item-mail{
+    background-image: url(../resources/mail.svg);
 }
 
 .contacts-item:not(:nth-child(3n)){
@@ -14,12 +33,21 @@
 
 .contacts-item-caption{
     margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 31px;
+    color: #1C1C1C;
 }
 
 .contacts-item-text{
     margin: 0;
+    max-width: 215px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #787878;
 }
 
-.contacts-item-link:not(:last-child){
-    margin-bottom: 5px;
+.contacts-item-link{
+    font-size: 14px;
+    line-height: 25px;
+    color: #787878; 
 }
