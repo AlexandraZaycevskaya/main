@@ -2,6 +2,19 @@
     padding: 42px 0;
 }
 
+.footer-copy{
+    font-size: 12px;
+    line-height: 16px;
+    color: #787878;
+}
+
+.footer-link{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #787878;
+}
+
 .footer-container{
     align-items: center;
     justify-content: space-between;
@@ -18,4 +31,33 @@
 
 .footer-item:not(:last-child){
     margin-right: 28px;
+}
+
+.footer-nav{
+    margin-right: 56px;
+}
+
+.social-link{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.social-item:not(:last-child){
+    margin-right: 32px;
+}
+
+.social-link-twitter{
+    background-image: url(../resources/twitter-logo.svg);
+}
+
+.social-link-linkedin{
+    background-image: url(../resources/linkedin-logo.svg);
+}
+
+.social-link-mail{
+    background-image: url(../resources/mail-link.svg);
 }
