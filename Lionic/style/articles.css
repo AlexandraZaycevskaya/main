@@ -1,3 +1,7 @@
+.articles{
+    border-bottom: 1px solid #DADADA;
+}
+
 .articles-item{
     width: 570px;
     margin-bottom: 30px;
@@ -12,6 +16,12 @@
     margin-right: 30px;
 }
 
+.blog-prewiev{
+    overflow: hidden;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+}
+
 .blog-prewiev-image{
     object-fit: cover;
 }
@@ -23,13 +33,23 @@
 .blog-preview-time{
     display: block;
     margin-bottom: 5px;
+    font-size: 10px;
+    line-height: 15px;
+    color: #787878;
 }
 
 .blog-preview-title{
     margin: 0;
     margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1C1C1C;
 }
 
 .blog-preview-descr{
     margin: 0;
+    max-width: 210px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #787878;
 }
